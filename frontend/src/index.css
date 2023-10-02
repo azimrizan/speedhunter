@@ -1,1 +1,108 @@
+main{
+  min-height: 90vh;
+}
+h3{
+  padding: 1rem 0;
+}
+h1{
+  font-size: 1.8rem;
+  padding: 1rem 0; 
+}
 
+h2{
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span{
+
+  margin: 0.1rem;
+}
+.custom-button {
+  width: 270px; /* You can adjust the width as needed */
+}
+
+/* custom-search-box.css */
+.custom-search-input {
+  width: 500px; /* Adjust the width as per your preference */
+}
+
+/* src/components/AboutUs.css 
+
+*/
+/* src/components/AboutUs.css */
+
+.shop-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto; /* Adjust margin as needed */
+}
+
+ 
+
+
+.about-us {
+  padding: 20px;
+  background-color: #f8f8f8; /* Pale yellow background color */
+  color: black; /* White text color */
+}
+
+.intro-text {
+  font-size: 24px;
+  font-weight: bold; /* Make the text bold */
+}
+.about-us * {
+  color: black;
+}
+
+.product-list {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #555;
+}
+
+.main-text {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+.about-us h1,
+.about-us h2,
+.about-us h3,
+.about-us h4,
+.about-us h5,
+.about-us h6 {
+  font-weight: bold;
+}
+
+.feature-list {
+  list-style: square;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.feature-list li {
+  margin-bottom: 5px;
+}
+
+/* src/components/AboutUs.css */
+
+.shop-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto; /* Adjust margin as needed */
+}
+
+.carousel img {
+  height: 400px;
+  padding: 0px;
+  margin: 20px;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
