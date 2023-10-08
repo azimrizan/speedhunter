@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.439f6422.css",
+    "main.js": "/static/js/main.5e0f51d1.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/shop.jpg": "/static/media/shop.40269b3782b69eab8eed.jpg",
+    "static/media/WhatsApp Image 2023-10-02 at 12.41.09.jpeg": "/static/media/WhatsApp Image 2023-10-02 at 12.41.09.93ee3ecfe0d659112351.jpeg",
+    "static/media/8cdbb629-ac80-495e-8b27-b015b6961fe1.jpeg": "/static/media/8cdbb629-ac80-495e-8b27-b015b6961fe1.85e63e486b2d565de6c8.jpeg",
+    "static/media/WhatsApp Image 2023-10-02 at 12.41.08.jpeg": "/static/media/WhatsApp Image 2023-10-02 at 12.41.08.74c0e8d64b12ca8e212d.jpeg",
+    "static/media/2857ef34-50dd-4599-a379-14f2d9c15980.jpeg": "/static/media/2857ef34-50dd-4599-a379-14f2d9c15980.6de240ecbd12340fa66b.jpeg",
+    "static/media/logo.jpg": "/static/media/logo.2efa0b5540d6c7e11dd0.jpg",
+    "index.html": "/index.html",
+    "main.439f6422.css.map": "/static/css/main.439f6422.css.map",
+    "main.5e0f51d1.js.map": "/static/js/main.5e0f51d1.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.439f6422.css",
+    "static/js/main.5e0f51d1.js"
+  ]
+}
