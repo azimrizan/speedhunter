@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.12d1b8e4.css",
+    "main.js": "/static/js/main.586083e4.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/shop.jpg": "/static/media/shop.40269b3782b69eab8eed.jpg",
+    "static/media/WhatsApp Image 2024-11-07 at 13.45.31_716f938d.jpg": "/static/media/WhatsApp Image 2024-11-07 at 13.45.31_716f938d.4e96b3dae7e5c2983455.jpg",
+    "static/media/WhatsApp Image 2024-11-07 at 13.45.38_49bf962b.jpg": "/static/media/WhatsApp Image 2024-11-07 at 13.45.38_49bf962b.47a6d545a6dd5d921279.jpg",
+    "static/media/WhatsApp Image 2024-11-07 at 13.45.47_22505324.jpg": "/static/media/WhatsApp Image 2024-11-07 at 13.45.47_22505324.fa4d83bdf03dd15fed4c.jpg",
+    "static/media/WhatsApp Image 2024-11-07 at 13.45.23_681c26a9.jpg": "/static/media/WhatsApp Image 2024-11-07 at 13.45.23_681c26a9.995aee20f3fa4e85f4c4.jpg",
+    "static/media/logo.jpg": "/static/media/logo.db51551c55b7d6496f56.jpg",
+    "index.html": "/index.html",
+    "main.12d1b8e4.css.map": "/static/css/main.12d1b8e4.css.map",
+    "main.586083e4.js.map": "/static/js/main.586083e4.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12d1b8e4.css",
+    "static/js/main.586083e4.js"
+  ]
+}
