@@ -15,13 +15,14 @@ const ShippingScreen = ({ history }) => {
   const [postalCode, setPostalCode] = useState(shippingAddress.postalCode)
   const [country, setCountry] = useState(shippingAddress.country)
   const [state, setState] = useState(shippingAddress.state)
+  const [phonenumber, setPhonenumber] = useState(shippingAddress.phonenumber)
   const navigate = useNavigate();
 
   const dispatch = useDispatch()
 
   const submitHandler = (e) => {
     e.preventDefault()
-    dispatch(saveShippingAddress({ address, city, postalCode, country,state }))
+    dispatch(saveShippingAddress({ address, city, postalCode, country,state,phonenumber }))
     navigate('/payment')
   }
 
@@ -87,9 +88,21 @@ const ShippingScreen = ({ history }) => {
           ></Form.Control>
         </Form.Group>
 
-        <Button type='submit' variant='primary'>
-          Continue
-        </Button>
+        <Form.Group controlId='phonenumber'>
+          <Form.Label>Phone Number</Form.Label>
+          <Form.Control
+            type='text'
+            placeholder='Enter postal code'
+            value={phonenumber}
+            required
+            onChange={(e) => setPhonenumber(e.target.value)}
+          ></Form.Control>
+        </Form.Group>
+
+        <Button type='submit' style={{ backgroundColor: 'red', borderColor: 'red' }}>
+  Continue
+</Button>
+
       </Form>
     </FormContainer>
   )

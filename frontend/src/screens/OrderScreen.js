@@ -81,7 +81,7 @@ const OrderScreen = ({ match, history }) => {
         key: 'rzp_test_MDH1i553KmuDsg', // Replace with your actual Razorpay API key
         order_id,
         amount: amountInPaise, // Use the amount in paise
-        name: 'SAHARA BUILDWARE',
+        name: 'SPEEDHUNTER MOTORSPORT',
         description: 'Payment for products',
         handler: async (response) => {
           // Handle the success callback
@@ -149,6 +149,7 @@ const OrderScreen = ({ match, history }) => {
                 {order.shippingAddress.country},{' '}
                 {order.shippingAddress.state},{' '}
                 {order.shippingAddress.postalCode},{' '}
+                {order.shippingAddress.phonenumber},{' '}
               </p>
               {order.isDelivered ? (
                 <Message variant='success'>

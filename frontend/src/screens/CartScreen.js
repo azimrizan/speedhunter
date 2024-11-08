@@ -50,7 +50,10 @@ const CartScreen = ({ history }) => {
                     <Image src={item.image} alt={item.name} fluid rounded />
                   </Col>
                   <Col md={3}>
-                    <Link to={`/product/${item.product}`}>{item.name}</Link>
+                  <Link to={`/product/${item.product}`} style={{ color: 'black', textDecoration: 'none' }}>
+  {item.name}
+</Link>
+
                   </Col>
                   <Col md={2}>₹{item.price}</Col>
                   <Col md={2}>
@@ -107,6 +110,7 @@ const CartScreen = ({ history }) => {
                 className='btn-block'
                 disabled={cartItems.length === 0}
                 onClick={checkoutHandler}
+                style={{backgroundColor: 'Red'}}
               >
                 Proceed To Checkout
               </Button>

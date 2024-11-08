@@ -77,6 +77,7 @@ const placeOrderHandler = () => {
                 {cart.shippingAddress.country},{' '}
                 {cart.shippingAddress.state},{' '}
                 {cart.shippingAddress.postalCode},{' '}
+                {cart.shippingAddress.phonenumber},{' '} 
                 
               </p>
             </ListGroup.Item>
@@ -105,10 +106,11 @@ const placeOrderHandler = () => {
                           />
                         </Col>
                         <Col>
-                          <Link to={`/product/${item.product}`}>
-                            {item.name}
-                          </Link>
-                        </Col>
+  <Link to={`/product/${item.product}`} style={{ color: 'black', textDecoration: 'none' }}>
+    {item.name}
+  </Link>
+</Col>
+
                         <Col md={4}>
                           {item.qty} x ₹{item.price} = ₹{item.qty * item.price}
                         </Col>
@@ -152,8 +154,10 @@ const placeOrderHandler = () => {
                 <Button
                   type='button'
                   className='btn-block'
+                  style={{ backgroundColor: 'red'}}
                   disabled={cart.cartItems === 0}
                   onClick={placeOrderHandler}
+                  
                 >
                   Place Order
                 </Button>

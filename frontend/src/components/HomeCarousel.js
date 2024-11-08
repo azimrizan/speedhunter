@@ -2,53 +2,66 @@
 
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import shopImage from 'file:///E:/fathisfashion/frontend/public/WhatsApp%20Image%202023-10-02%20at%2012.41.09.jpeg';
-import shopImage2 from 'file:///E:/fathisfashion/frontend/public/WhatsApp%20Image%202023-10-02%20at%2012.41.08.jpeg';
-import shopImage3 from 'file:///E:/fathisfashion/frontend/public/8cdbb629-ac80-495e-8b27-b015b6961fe1.jpeg';
-import shopImage4 from 'file:///E:/fathisfashion/frontend/public/2857ef34-50dd-4599-a379-14f2d9c15980.jpeg';
-//import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import shopImage from 'file:///D:/speedhunter/fathisfashion/frontend/public/WhatsApp%20Image%202024-11-07%20at%2013.45.23_681c26a9.jpg';
+import shopImage2 from 'file:///D:/speedhunter/fathisfashion/frontend/public/WhatsApp%20Image%202024-11-07%20at%2013.45.38_49bf962b.jpg';
+import shopImage3 from 'file:///D:/speedhunter/fathisfashion/frontend/public/WhatsApp%20Image%202024-11-07%20at%2013.45.47_22505324.jpg';
+import shopImage4 from 'file:///D:/speedhunter/fathisfashion/frontend/public/WhatsApp%20Image%202024-11-07%20at%2013.45.31_716f938d.jpg';
 
 const HomeCarousel = () => {
-
-    const imageStyle = {
-        maxHeight: '300px', // Adjust the maximum height as needed
-        width: 'auto',
-      };
   return (
-    <Carousel pause='hover'>
+    <Carousel pause="hover">
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={shopImage} // Replace with your image URL
+          src={shopImage}
           alt="First slide"
-          
+          style={{
+            width: '160px',
+            height: 'auto',
+            margin: '0 auto',
+            objectFit: 'cover',
+          }}
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={shopImage2} // Replace with your image URL
+          src={shopImage2}
           alt="Second slide"
-          
+          style={{
+            width: '160px',
+            height: 'auto',
+            margin: '0 auto',
+            objectFit: 'cover',
+          }}
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={shopImage3} // Replace with your image URL
+          src={shopImage3}
           alt="Third slide"
-          
+          style={{
+            width: '160px',
+            height: 'auto',
+            margin: '0 auto',
+            objectFit: 'cover',
+          }}
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={shopImage4} // Replace with your image URL
-          alt="fourth slide"
-          
+          src={shopImage4}
+          alt="Fourth slide"
+          style={{
+            width: '160px',
+            height: 'auto',
+            margin: '0 auto',
+            objectFit: 'cover',
+          }}
         />
       </Carousel.Item>
-     
     </Carousel>
   );
 };

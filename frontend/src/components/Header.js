@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import {LinkContainer} from 'react-router-bootstrap'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import { logout } from '../actions/userActions';
-import logo from 'file:///E:/fathisfashion/frontend/logo.jpg'; // Replace './logo.jpg' with the correct path relative to your Header component
+import logo from 'file:///D:/speedhunter/fathisfashion/frontend/logo.jpg'; // Replace './logo.jpg' with the correct path relative to your Header component
 
 const Header = () => {
   const dispatch = useDispatch()
@@ -19,14 +19,14 @@ const Header = () => {
 
   return (
     <div>
-      <Navbar expand="lg" bg="primary" variant="dark" className="justify-content-between" collapseOnSelect>
-        <Container>
+      <Navbar expand="lg"  variant="black" collapseOnSelect>
+        <Container className="justify-content-center">
           <LinkContainer to='/'>
-          <Navbar.Brand>
+          <Navbar.Brand className="mx-auto" >
             <img
               src={logo}
               alt="Fashion Logo"
-              style={{ height: '50px', marginRight: '30px', width:'200px'}}
+              style={{ height: '130px',  width:'350px'}}
             />
 
           </Navbar.Brand>
@@ -49,11 +49,7 @@ const Header = () => {
               ) : (
               <LinkContainer to='/login'>    
               <Nav.Link><i className='fas fa-user'></i>SIGN IN</Nav.Link></LinkContainer> )}
-              <LinkContainer to='/about-us'>
-              <Nav.Link>
-                <i className='fas fa-envelope'></i> ABOUT US
-              </Nav.Link>
-              </LinkContainer>
+              
               {userInfo && userInfo.isAdmin && (
                 <NavDropdown title='Admin' id='adminmenu'>
                   <LinkContainer to='/admin/userlist'>
